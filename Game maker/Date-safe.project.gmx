@@ -35,6 +35,13 @@
         <sprite>sprites\scene110</sprite>
         <sprite>sprites\scene22</sprite>
       </sprites>
+      <sprites name="scene-girl">
+        <sprite>sprites\spr_girl_scene1</sprite>
+        <sprite>sprites\spr_girl_scene2</sprite>
+        <sprite>sprites\spr_girl_scene3</sprite>
+        <sprite>sprites\spr_girl_scene3_1</sprite>
+        <sprite>sprites\spr_girl_scene4</sprite>
+      </sprites>
     </sprites>
     <sprites name="start">
       <sprite>sprites\spr_start</sprite>
@@ -106,9 +113,9 @@
       <object>objects\obj_info_quiz</object>
       <objects name="quiz">
         <object>objects\obj_answer</object>
-        <object>objects\obj_arrow</object>
-        <object>objects\obj_correct</object>
         <object>objects\obj_not_ans</object>
+        <object>objects\obj_correct</object>
+        <object>objects\obj_wrong</object>
         <object>objects\obj_q0</object>
         <object>objects\obj_q1</object>
         <object>objects\obj_q2</object>
@@ -120,7 +127,6 @@
         <object>objects\obj_q8</object>
         <object>objects\obj_q9</object>
         <object>objects\obj_quiz_bg</object>
-        <object>objects\obj_wrong</object>
         <object>objects\quiz_spawn</object>
         <object>objects\obj_quiz_quit</object>
       </objects>
@@ -142,7 +148,7 @@
       <object>objects\obj_girl</object>
       <object>objects\obj_boy1</object>
       <object>objects\playas</object>
-      <objects name="scene">
+      <objects name="boy scene">
         <object>objects\obj_scene1</object>
         <object>objects\obj_scene3</object>
         <object>objects\obj_scene2</object>
@@ -166,6 +172,11 @@
         <object>objects\obj_scene21</object>
         <object>objects\obj_scene110</object>
         <object>objects\obj_scene22</object>
+      </objects>
+      <objects name="girl scene">
+        <object>objects\obj_girl_scene1</object>
+        <object>objects\obj_girl_scene2</object>
+        <object>objects\obj_girl_scene3</object>
       </objects>
     </objects>
   </objects>

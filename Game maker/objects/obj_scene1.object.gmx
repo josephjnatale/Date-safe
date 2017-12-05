@@ -88,6 +88,7 @@ if(mouse_x&gt;40 &amp;&amp; mouse_x&lt;1040){
           <argument>
             <kind>1</kind>
             <string>draw_self();
+draw_set_valign(fa_top);
 draw_set_halign(fa_center);
 draw_text(540, 1540, global.box1);
 draw_text(540, 1750, global.box2);

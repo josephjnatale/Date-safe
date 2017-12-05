@@ -151,9 +151,12 @@ switch(global.narrset){
 }
 draw_self();
 if( global.narrtalk ){
-draw_set_color(c_white);
-draw_set_font(fnt_narr);
-draw_text(420,1200, texttooutput);
+    draw_set_color(c_white);
+    draw_set_font(fnt_narr);
+    draw_set_valign(fa_top);
+    draw_set_halign(fa_left);
+    draw_text(420,1200, texttooutput);
+
 }
 
 </string>

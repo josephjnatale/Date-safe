@@ -69,7 +69,7 @@ global.i = 0;</code>
   </views>
   <instances>
     <instance objName="obj_burger" x="160" y="96" name="inst_5C26AD4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_quit" x="929" y="79" name="inst_1762A8E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_quit" x="928" y="96" name="inst_6F524EE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -27,9 +27,12 @@
             <kind>1</kind>
             <string>global.playasgender = 0;
 
-//with(obj_girl)instance_destroy();
-//with(obj_boy1)instance_destroy();
+with(obj_girl)instance_destroy();
+with(obj_boy1)instance_destroy();
+with(playas)instance_destroy();
 
+global.scene=1;
+instance_create(0,0,obj_girl_scene1);
 </string>
           </argument>
         </arguments>

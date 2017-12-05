@@ -69,6 +69,7 @@ if(global.balloon_clicked == 2){
     with(obj_balloons_but)instance_destroy();
     with(obj_date_but)instance_destroy();
     with(obj_esc_but)instance_destroy();
+    with(obj_menu_narr)instance_destroy();
     scr_fade(rm_balloon);
 }
 

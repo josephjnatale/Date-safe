@@ -59,7 +59,6 @@ with(obj_wrong) instance_destroy();
 with(obj_answer) instance_destroy();
 with(obj_not_ans) instance_destroy();
 with(quiz_spawn) instance_destroy();
-with(obj_arrow) instance_destroy();
 with(obj_quiz_bg) instance_destroy();
 </string>
           </argument>
