@@ -36,11 +36,15 @@
         <sprite>sprites\scene22</sprite>
       </sprites>
       <sprites name="scene-girl">
+        <sprite>sprites\spr_girl_scene6</sprite>
         <sprite>sprites\spr_girl_scene1</sprite>
         <sprite>sprites\spr_girl_scene2</sprite>
         <sprite>sprites\spr_girl_scene3</sprite>
         <sprite>sprites\spr_girl_scene3_1</sprite>
         <sprite>sprites\spr_girl_scene4</sprite>
+        <sprite>sprites\spr_girl_scene5</sprite>
+        <sprite>sprites\spr_girl_scene9</sprite>
+        <sprite>sprites\spr_girl_scene8</sprite>
       </sprites>
     </sprites>
     <sprites name="start">
@@ -94,6 +98,7 @@
     <font>fonts\fnt</font>
     <font>fonts\fnt_quiz</font>
     <font>fonts\fnt_narr</font>
+    <font>fonts\fnt_balloon</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_fade</object>
@@ -177,6 +182,12 @@
         <object>objects\obj_girl_scene1</object>
         <object>objects\obj_girl_scene2</object>
         <object>objects\obj_girl_scene3</object>
+        <object>objects\obj_girl_scene3_1</object>
+        <object>objects\obj_girl_scene9</object>
+        <object>objects\obj_girl_scene8</object>
+        <object>objects\obj_girl_scene6</object>
+        <object>objects\obj_girl_scene5</object>
+        <object>objects\obj_girl_scene4</object>
       </objects>
     </objects>
   </objects>

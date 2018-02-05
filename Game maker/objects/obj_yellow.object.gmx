@@ -76,6 +76,7 @@ else wordgood = false;
             <kind>1</kind>
             <string>vspeed = global.speeds;
 
+//if balloon flies up and is a bad word; lose life
 if(y &lt; 0) {
     if(wordgood == false){
         lives -=1;
@@ -83,9 +84,18 @@ if(y &lt; 0) {
     instance_destroy();
 }
 
+//if balloon is popped and is a good word; lose life
 if(image_index == 6) {
     if(wordgood == true){
         lives -=1;
+    }
+    instance_destroy();
+}
+
+//if balloon is popped and is a bad word; gain life
+if(image_index == 6) {
+    if(wordgood == false){
+        lives +=1;
     }
  
     instance_destroy();

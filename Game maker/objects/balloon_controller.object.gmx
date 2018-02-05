@@ -49,7 +49,7 @@ alarm[0] = 14;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>3</string>
           </argument>
         </arguments>
       </action>
@@ -69,7 +69,10 @@ alarm[0] = 14;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>done = false;
+            <string>
+done = false;
+win = false;
+lose = false;
 width = 1080;
 height = 1900;
 </string>
@@ -154,6 +157,13 @@ if(b_color == 4){
             <string>if(lives &lt;1){
     with(balloon_controller) instance_destroy();
     done = true;
+    lose = true;
+}
+
+if(lives &gt; 15){
+    with(balloon_controller) instance_destroy();
+    done = true;
+    win = true;
 }
 </string>
           </argument>
@@ -209,9 +219,11 @@ if(b_color == 4){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if done == true{
-    instance_create((room_width/2)-100,room_height/2, obj_restart);
-    instance_create((room_width/2)+100,room_height/2, obj_quit)
+            <string>if (lose== true){
+    instance_create((room_width/2),room_height/2, obj_restart);
+}
+if (win == true){
+    instance_create((room_width/2),room_height/2, obj_quit)
 }
 
 </string>

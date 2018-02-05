@@ -134,15 +134,15 @@ switch(global.narrset){
         break;
         
      case 2:
-    texttooutput= "You must complete the quiz#in the info tab#to play this game.";
+    texttooutput= "Did you complete the quiz #in the info tab before# playing this game?";
     break;
     
      case 3:
-    texttooutput= "You must complete the quiz#in the info tab#to play this adventure.";
+    texttooutput= "Tap again to play this adventure.";
     break;
     
      case 4:
-    texttooutput= "You must complete the quiz#in the info tab#to play this game.";
+    texttooutput= "Did you complete the quiz #in the info tab before# playing this game?";
     break;
         
     default:

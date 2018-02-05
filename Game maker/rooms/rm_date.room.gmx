@@ -13,7 +13,8 @@
   <code>global.playasgender=-1;
 global.scene=-1;
 global.box1="";
-global.box2="";</code>
+global.box2="";
+global.girlflag1 = -1;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
