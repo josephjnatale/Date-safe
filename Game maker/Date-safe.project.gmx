@@ -3,8 +3,11 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\date_music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Dating">
       <sprite>sprites\spr_girl</sprite>
