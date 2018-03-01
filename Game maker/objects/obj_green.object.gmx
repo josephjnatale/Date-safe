@@ -117,12 +117,14 @@ words[85]= "Disrespectful";
 
 
 
-randword = floor(random(86));
+randword = floor(random(85));
 word = words[randword];
 phrase = randword mod 2;
 
-if(phrase == 1) wordgood = true;
+if(phrase == 0) wordgood = true;
 else wordgood = false;
+
+
 </string>
           </argument>
         </arguments>
@@ -147,27 +149,9 @@ else wordgood = false;
             <kind>1</kind>
             <string>vspeed = global.speeds;
 
-//if balloon flies up and is a bad word; lose life
-if(y &lt; 0) {
-    if(wordgood == false){
-        audio_play_sound(sound_wrong_answer,9, false);
-        lives -=1;
-    }
-    instance_destroy();
-}
-
-//if balloon is popped and is a good word; lose life
-if(image_index == 6) {
-    if(wordgood == true){
-        audio_play_sound(sound_wrong_answer,9, false);
-        lives -=1;
-    }
-    instance_destroy();
-}
-
 //if balloon is popped and is a bad word; gain life
 if(image_index == 6) {
-    if(wordgood == false){
+    if(!wordgood){
         audio_play_sound(sound_correct_answer,9, false);
         lives +=1;
     }
@@ -175,6 +159,28 @@ if(image_index == 6) {
     instance_destroy();
 
 }
+
+//if balloon is popped and is a good word; lose life
+else if(image_index == 6) {
+    if(wordgood){
+        audio_play_sound(sound_wrong_answer,9, false);
+        lives -=1;
+    }
+    instance_destroy();
+}
+
+//if balloon flies up and is a bad word; lose life
+else if(y &lt; 0) {
+    
+    if(!wordgood){
+        audio_play_sound(sound_wrong_answer,9, false);
+        lives -=1;
+    }
+    instance_destroy();
+}
+
+
+
 </string>
           </argument>
         </arguments>
