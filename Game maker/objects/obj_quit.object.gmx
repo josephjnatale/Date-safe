@@ -25,6 +25,27 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>audio_play_sound(sound_click,10, false)
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>room_goto(rm_main);
 
 </string>
@@ -56,7 +77,6 @@
     draw_set_halign(fa_left);
     
     draw_text(x-50,y,"QUIT")
-    draw_text((room_width/2)-125,(room_height/2)-100, "Congrats!");
 
 </string>
           </argument>

@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>
-alarm[0] = 14;
+alarm[0] = 20;
 
 
 </string>
@@ -97,12 +97,12 @@ height = 1900;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 18;
+            <string>alarm[0] = 35;
 position = floor(random(3));
 b_color = floor(random(5));
 
 
-global.speeds = -10;
+global.speeds = -7;
 y_pos = 2000;
 
 
@@ -160,7 +160,7 @@ if(b_color == 4){
     lose = true;
 }
 
-if(lives &gt; 15){
+if(lives &gt; 20){
     with(balloon_controller) instance_destroy();
     done = true;
     win = true;
@@ -223,6 +223,7 @@ if(lives &gt; 15){
     instance_create((room_width/2),room_height/2, obj_restart);
 }
 if (win == true){
+    draw_text((room_width/2),(room_height/2)+75, "CONGRATS, YOU WIN!!");
     instance_create((room_width/2),room_height/2, obj_quit)
 }
 

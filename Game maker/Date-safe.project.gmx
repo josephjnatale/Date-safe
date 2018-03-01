@@ -7,6 +7,15 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\date_music</sound>
+    <sound>sound\sound_wrong_answer</sound>
+    <sound>sound\sound_balloon_pop</sound>
+    <sound>sound\sound_wrong_answer_buzzer</sound>
+    <sound>sound\sound_kids_cheer</sound>
+    <sound>sound\sound_swish</sound>
+    <sound>sound\sound_click</sound>
+    <sound>sound\sound_coin</sound>
+    <sound>sound\sound_click_2</sound>
+    <sound>sound\sound_correct_answer</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Dating">

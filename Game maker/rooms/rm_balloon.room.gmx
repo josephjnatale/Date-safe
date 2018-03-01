@@ -52,6 +52,7 @@
   </views>
   <instances>
     <instance objName="balloon_tutorial" x="558" y="1235" name="inst_F29DA73D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_quit" x="928" y="96" name="inst_7E9BD79F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
