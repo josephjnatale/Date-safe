@@ -92,12 +92,25 @@
       <sprite>sprites\spr_live</sprite>
       <sprite>sprites\spr_balloon_tut</sprite>
     </sprites>
+    <sprites name="Escape">
+      <sprite>sprites\spr_boy_run</sprite>
+      <sprite>sprites\spr_boy_jump</sprite>
+      <sprite>sprites\spr_boy_slide</sprite>
+      <sprite>sprites\spr_locker1</sprite>
+      <sprite>sprites\spr_locker2</sprite>
+      <sprite>sprites\spr_locker0</sprite>
+      <sprite>sprites\spr_girl_jump</sprite>
+      <sprite>sprites\spr_girl_slide</sprite>
+      <sprite>sprites\spr_coin</sprite>
+      <sprite>sprites\spr_girl_run</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_school</background>
     <background>background\bg_classroom</background>
     <background>background\bg_lib</background>
     <background>background\bg_curtain</background>
+    <background>background\bg_lockers</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -202,6 +215,20 @@
         <object>objects\obj_girl_scene4</object>
       </objects>
     </objects>
+    <objects name="Escape">
+      <object>objects\obj_boy_jump</object>
+      <object>objects\obj_boy_run</object>
+      <object>objects\obj_boy_slide</object>
+      <object>objects\obj_coin</object>
+      <object>objects\obj_girl_jump</object>
+      <object>objects\obj_girl_run</object>
+      <object>objects\obj_girl_slide</object>
+      <object>objects\obj_lock_spawn</object>
+      <object>objects\obj_locker0</object>
+      <object>objects\obj_locker1</object>
+      <object>objects\obj_locker2</object>
+      <object>objects\obj_open_lock0</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
@@ -210,6 +237,7 @@
     <room>rooms\rm_balloon</room>
     <room>rooms\rm_date</room>
     <room>rooms\rm_scene</room>
+    <room>rooms\rm_escape</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
