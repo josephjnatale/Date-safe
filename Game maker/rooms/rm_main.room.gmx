@@ -19,7 +19,11 @@ global.escape_clicked = 0;
 //keeps track of progress
 global.quiz_done = false;
 global.balloon_done = false;
-global.date_done = false;</code>
+global.date_done = false;
+
+//if coming from the date room, music will still be playing
+if(audio_is_playing(date_music))
+    audio_stop_all()</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
