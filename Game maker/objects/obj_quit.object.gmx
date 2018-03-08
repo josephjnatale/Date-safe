@@ -56,7 +56,6 @@
     draw_set_halign(fa_left);
     
     draw_text(x-50,y,"QUIT")
-    draw_text((room_width/2)-125,(room_height/2)-100, "Congrats, You WON!");
 
 </string>
           </argument>

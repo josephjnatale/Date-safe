@@ -145,6 +145,7 @@
         <object>objects\obj_quiz_bg</object>
         <object>objects\quiz_spawn</object>
         <object>objects\obj_quiz_quit</object>
+        <object>objects\obj_quit_for_quiz</object>
       </objects>
       <object>objects\obj_infographic</object>
       <object>objects\obj_info_button</object>

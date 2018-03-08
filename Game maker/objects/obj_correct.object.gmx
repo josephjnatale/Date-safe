@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>
+audio_play_sound(sound_click, 9, false)
 
 with(global.qnum[| global.i]) instance_destroy();
 with(obj_answer) instance_destroy();

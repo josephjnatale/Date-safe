@@ -49,6 +49,7 @@
             <kind>1</kind>
             <string>global.escape_clicked +=1;
 
+audio_play_sound(sound_click, 9, false)
 if (global.escape_clicked ==1){
 
     global.narrset =4;

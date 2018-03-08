@@ -224,6 +224,8 @@ if(lives &gt; 15){
 }
 if (win == true){
     instance_create((room_width/2),room_height/2, obj_quit)
+    
+    draw_text((room_width/2)-125,(room_height/2)-100, "Congrats, You WON!");
     audio_play_sound(sound_kids_cheer,9, false);
 }
 
