@@ -61,6 +61,7 @@
     <sprites name="start">
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_boy</sprite>
+      <sprite>sprites\spr_date_safe</sprite>
     </sprites>
     <sprites name="main menu">
       <sprite>sprites\spr_balloons_but</sprite>
@@ -110,12 +111,14 @@
     <font>fonts\fnt_quiz</font>
     <font>fonts\fnt_narr</font>
     <font>fonts\fnt_balloon</font>
+    <font>fonts\fnt_date</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_fade</object>
     <objects name="start">
       <object>objects\obj_start</object>
       <object>objects\obj_boy</object>
+      <object>objects\obj_date_safe</object>
     </objects>
     <objects name="main menu">
       <object>objects\obj_info_but</object>
@@ -160,6 +163,7 @@
       <object>objects\obj_yellow</object>
       <object>objects\obj_restart</object>
       <object>objects\obj_quit</object>
+      <object>objects\obj_quit2</object>
     </objects>
     <objects name="dating">
       <object>objects\obj_girl</object>
