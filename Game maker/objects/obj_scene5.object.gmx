@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="Say, Sorry but phil has to do homework.";
+            <string>global.box1="Say, Sorry but Phil has to do homework.";
 global.box2="Say Carla can home over.  Phil then heads home. ";
 image_speed=0.033333;
 </string>

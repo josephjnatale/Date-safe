@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>global.box1="make plans to go to the movies tomorrow night.";
 if
-global.box2="Phil says he cant because clara already asked him.";
+global.box2="Phil says he cant because Carla already asked him.";
 else
 global.box2="";
 
