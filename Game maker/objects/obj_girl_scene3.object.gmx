@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="Go home";
-global.box2="";
+            <string>global.box1="";
+global.box2="Go home";
 image_speed=0.033333;
 </string>
           </argument>

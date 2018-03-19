@@ -54,8 +54,16 @@
         <sprite>sprites\spr_girl_scene3_1</sprite>
         <sprite>sprites\spr_girl_scene4</sprite>
         <sprite>sprites\spr_girl_scene5</sprite>
+        <sprite>sprites\spr_girl_scene7</sprite>
         <sprite>sprites\spr_girl_scene9</sprite>
+        <sprite>sprites\spr_girl_scene10</sprite>
         <sprite>sprites\spr_girl_scene8</sprite>
+        <sprite>sprites\spr_girl_scene11</sprite>
+        <sprite>sprites\spr_girl_scene12</sprite>
+        <sprite>sprites\spr_girl_scene13</sprite>
+        <sprite>sprites\spr_girl_scene14</sprite>
+        <sprite>sprites\spr_girl_scene15</sprite>
+        <sprite>sprites\spr_girl_scene16</sprite>
       </sprites>
     </sprites>
     <sprites name="start">
@@ -202,6 +210,14 @@
         <object>objects\obj_girl_scene9</object>
         <object>objects\obj_girl_scene8</object>
         <object>objects\obj_girl_scene6</object>
+        <object>objects\obj_girl_scene7</object>
+        <object>objects\obj_girl_scene10</object>
+        <object>objects\obj_girl_scene11</object>
+        <object>objects\obj_girl_scene12</object>
+        <object>objects\obj_girl_scene13</object>
+        <object>objects\obj_girl_scene14</object>
+        <object>objects\obj_girl_scene15</object>
+        <object>objects\obj_girl_scene16</object>
         <object>objects\obj_girl_scene5</object>
         <object>objects\obj_girl_scene4</object>
       </objects>
