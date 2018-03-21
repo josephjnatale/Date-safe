@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>room_goto(rm_main);
+audio_play_sound(sound_click, 10, false)
 </string>
           </argument>
         </arguments>
@@ -51,7 +52,7 @@
             <string>draw_self();
 draw_set_color(c_black);
 draw_set_font(fnt_quiz);
-draw_text(200, (room_height/2 -200), "You have completed the quiz,#click quit to return to the main menu");
+draw_text(200, (room_height/2 -200), "Congrats!!#You have completed the quiz,#click quit in the top right to return #to the main menu");
 </string>
           </argument>
         </arguments>

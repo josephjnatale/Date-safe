@@ -50,7 +50,7 @@ image_speed=0.033333;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>audio_play_sound(sound_click_2, 9, false);
 if(mouse_x&gt;40 &amp;&amp; mouse_x&lt;1040){
     //selected box 1
     if(mouse_y&gt;1450 &amp;&amp; mouse_y&lt;1650  &amp;&amp; !(global.box1=="")){

@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="Say you are going to study. (Actually Sneakout)";
-global.box2="Say you are going to study. (Study)";
+            <string>global.box1="Say you are going to study. #(Actually Sneakout)";
+global.box2="Say you are going to study. #(Study)";
 image_speed=0.033333;
 </string>
           </argument>
@@ -60,7 +60,7 @@ if(mouse_x&gt;40 &amp;&amp; mouse_x&lt;1040){
         }
     else if( mouse_y&gt;1680 &amp;&amp; mouse_y&lt;1880 &amp;&amp; !(global.box1=="")){
         global.scene=8;
-        instance_create(0,0,obj_girl_scene8);
+        instance_create(0,0,obj_girl_scene6);
         with(obj_girl_scene5)instance_destroy();
     }
 }

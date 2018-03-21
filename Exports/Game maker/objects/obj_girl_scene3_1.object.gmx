@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="Go home";
-global.box2="Call Mike";
+            <string>global.box1="Call Mike";
+global.box2="Go Home";
 image_speed=0.033333;
 </string>
           </argument>
@@ -54,13 +54,13 @@ image_speed=0.033333;
 if(mouse_x&gt;40 &amp;&amp; mouse_x&lt;1040){
     //selected box 1
     if(mouse_y&gt;1450 &amp;&amp; mouse_y&lt;1650 &amp;&amp; !(global.box1=="")){
-        global.scene=5;
-        instance_create(0,0,obj_girl_scene5);
+       
+        instance_create(0,0,obj_girl_scene4);
         with(obj_girl_scene3-1)instance_destroy();
         }
     else if( mouse_y&gt;1680 &amp;&amp; mouse_y&lt;1880 &amp;&amp; !(global.box1=="")){
         global.scene=4;
-        instance_create(0,0,obj_girl_scene4);
+        instance_create(0,0,obj_girl_scene5);
         with(obj_girl_scene3-1)instance_destroy();
     }
 }

@@ -70,6 +70,7 @@
             <kind>1</kind>
             <string>global.info_clicked +=1;
 
+audio_play_sound(sound_click, 9, false)
 if (global.info_clicked ==1){
 
     global.narrset =1;

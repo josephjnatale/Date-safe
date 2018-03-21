@@ -55,7 +55,13 @@
     draw_set_valign(fa_bottom);
     draw_set_halign(fa_left);
     
+<<<<<<< HEAD:Exports/Game maker/objects/obj_quit.object.gmx
     draw_text(x-50,y,"QUIT")
+=======
+    
+    draw_text(150,y,"CONGRATS!! YOU WIN!");
+    draw_text(x-50,y+80, "QUIT");
+>>>>>>> d65df72:Game maker/objects/obj_quit.object.gmx
 
 </string>
           </argument>

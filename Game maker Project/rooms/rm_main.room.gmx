@@ -21,8 +21,14 @@ global.quiz_done = false;
 global.balloon_done = false;
 global.date_done = false;
 
+<<<<<<< HEAD:Game maker Project/rooms/rm_main.room.gmx
 //stops music
 audio_stop_all();</code>
+=======
+//if coming from the date room, music will still be playing
+if(audio_is_playing(date_music))
+    audio_stop_all()</code>
+>>>>>>> d65df72:Game maker/rooms/rm_main.room.gmx
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

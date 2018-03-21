@@ -7,6 +7,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\date_music</sound>
+<<<<<<< HEAD:Game maker Project/Date-safe.project.gmx
     <sound>sound\sound_wrong_answer</sound>
     <sound>sound\sound_balloon_pop</sound>
     <sound>sound\sound_wrong_answer_buzzer</sound>
@@ -16,6 +17,17 @@
     <sound>sound\sound_coin</sound>
     <sound>sound\sound_click_2</sound>
     <sound>sound\sound_correct_answer</sound>
+=======
+    <sound>sound\sound_balloon_pop</sound>
+    <sound>sound\sound_click</sound>
+    <sound>sound\sound_click_2</sound>
+    <sound>sound\sound_coin</sound>
+    <sound>sound\sound_correct_answer</sound>
+    <sound>sound\sound_kids_cheer</sound>
+    <sound>sound\sound_swish</sound>
+    <sound>sound\sound_wrong_answer</sound>
+    <sound>sound\sound_wrong_answer_buzzer</sound>
+>>>>>>> d65df72:Game maker/Date-safe.project.gmx
   </sounds>
   <sprites name="sprites">
     <sprites name="Dating">
@@ -55,13 +67,22 @@
         <sprite>sprites\spr_girl_scene3_1</sprite>
         <sprite>sprites\spr_girl_scene4</sprite>
         <sprite>sprites\spr_girl_scene5</sprite>
+        <sprite>sprites\spr_girl_scene7</sprite>
         <sprite>sprites\spr_girl_scene9</sprite>
+        <sprite>sprites\spr_girl_scene10</sprite>
         <sprite>sprites\spr_girl_scene8</sprite>
+        <sprite>sprites\spr_girl_scene11</sprite>
+        <sprite>sprites\spr_girl_scene12</sprite>
+        <sprite>sprites\spr_girl_scene13</sprite>
+        <sprite>sprites\spr_girl_scene14</sprite>
+        <sprite>sprites\spr_girl_scene15</sprite>
+        <sprite>sprites\spr_girl_scene16</sprite>
       </sprites>
     </sprites>
     <sprites name="start">
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_boy</sprite>
+      <sprite>sprites\spr_date_safe</sprite>
     </sprites>
     <sprites name="main menu">
       <sprite>sprites\spr_balloons_but</sprite>
@@ -124,12 +145,14 @@
     <font>fonts\fnt_quiz</font>
     <font>fonts\fnt_narr</font>
     <font>fonts\fnt_balloon</font>
+    <font>fonts\fnt_date</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_fade</object>
     <objects name="start">
       <object>objects\obj_start</object>
       <object>objects\obj_boy</object>
+      <object>objects\obj_date_safe</object>
     </objects>
     <objects name="main menu">
       <object>objects\obj_info_but</object>
@@ -159,6 +182,7 @@
         <object>objects\obj_quiz_bg</object>
         <object>objects\quiz_spawn</object>
         <object>objects\obj_quiz_quit</object>
+        <object>objects\obj_quit_for_quiz</object>
       </objects>
       <object>objects\obj_infographic</object>
       <object>objects\obj_info_button</object>
@@ -173,6 +197,7 @@
       <object>objects\obj_yellow</object>
       <object>objects\obj_restart</object>
       <object>objects\obj_quit</object>
+      <object>objects\obj_quit2</object>
     </objects>
     <objects name="dating">
       <object>objects\obj_girl</object>
@@ -211,6 +236,14 @@
         <object>objects\obj_girl_scene9</object>
         <object>objects\obj_girl_scene8</object>
         <object>objects\obj_girl_scene6</object>
+        <object>objects\obj_girl_scene7</object>
+        <object>objects\obj_girl_scene10</object>
+        <object>objects\obj_girl_scene11</object>
+        <object>objects\obj_girl_scene12</object>
+        <object>objects\obj_girl_scene13</object>
+        <object>objects\obj_girl_scene14</object>
+        <object>objects\obj_girl_scene15</object>
+        <object>objects\obj_girl_scene16</object>
         <object>objects\obj_girl_scene5</object>
         <object>objects\obj_girl_scene4</object>
       </objects>

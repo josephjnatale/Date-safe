@@ -69,6 +69,8 @@
           <argument>
             <kind>1</kind>
             <string>global.burgerclick +=1;
+
+audio_play_sound(sound_click, 9, false)
 if(global.burgerclick mod 2 = 1) burgereven = true;
 else burgereven = false;
 

@@ -49,7 +49,7 @@ alarm[0] = 20;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>3</string>
+            <string>5</string>
           </argument>
         </arguments>
       </action>
@@ -97,7 +97,7 @@ height = 1900;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 18;
+            <string>alarm[0] = 35;
 position = floor(random(3));
 b_color = floor(random(5));
 
@@ -224,6 +224,9 @@ if(lives &gt; 15){
 }
 if (win == true){
     instance_create((room_width/2),room_height/2, obj_quit)
+    
+    draw_text((room_width/2)-125,(room_height/2)-100, "Congrats, You WON!");
+    audio_play_sound(sound_kids_cheer,9, false);
 }
 
 </string>
