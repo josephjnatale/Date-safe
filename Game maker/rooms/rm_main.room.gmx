@@ -69,6 +69,7 @@ if(audio_is_playing(date_music))
     <instance objName="obj_balloons_but" x="1503" y="498" name="inst_BC82F148" locked="0" code="" scaleX="1.22613060474396" scaleY="1.20603013038635" colour="4294967295" rotation="0"/>
     <instance objName="obj_date_but" x="1760" y="640" name="inst_080BF18A" locked="0" code="" scaleX="1.4099999666214" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
     <instance objName="obj_esc_but" x="1370" y="771" name="inst_5A95DF50" locked="0" code="" scaleX="1.22807013988495" scaleY="1.27999997138977" colour="4294967295" rotation="0"/>
+    <instance objName="obj_credits" x="960" y="1792" name="inst_60262B23" locked="0" code="" scaleX="2.27999997138977" scaleY="2.27999997138977" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
