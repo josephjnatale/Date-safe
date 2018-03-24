@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> scr_fade(rm_main);
+            <string> 
+audio_play_sound(sound_click, 9, false);
+scr_fade(rm_main);
 </string>
           </argument>
         </arguments>

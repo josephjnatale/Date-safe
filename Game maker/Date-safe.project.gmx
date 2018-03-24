@@ -117,6 +117,8 @@
       <sprite>sprites\spr_escape_restart</sprite>
       <sprite>sprites\spr_escape_quit</sprite>
       <sprite>sprites\spr_escape_tut</sprite>
+      <sprite>sprites\spr_jump_but</sprite>
+      <sprite>sprites\spr_slide_but</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -260,6 +262,8 @@
       <object>objects\obj_restart_escape</object>
       <object>objects\obj_quit_escape</object>
       <object>objects\obj_escape_tut</object>
+      <object>objects\obj_jump_but</object>
+      <object>objects\obj_slide_but</object>
     </objects>
   </objects>
   <rooms name="rooms">

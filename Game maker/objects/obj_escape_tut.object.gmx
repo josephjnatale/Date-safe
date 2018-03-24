@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>instance_destroy();
-instance_create(-310, 760, obj_boy_run);
+audio_play_sound(sound_click, 9, false);
+instance_create(-310, 750, obj_boy_run);
 </string>
           </argument>
         </arguments>

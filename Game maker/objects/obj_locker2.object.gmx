@@ -87,6 +87,7 @@ else if(y==1050){
             <string>
 if(pos == 2){
     lives-=1
+    audio_play_sound(sound_wrong_answer, 9, false);
 }
 </string>
           </argument>
@@ -126,6 +127,7 @@ if(pos == 2){
             <kind>1</kind>
             <string>if(x&gt;100){
     lives-=1
+    audio_play_sound(sound_wrong_answer, 9, false);
 }
 </string>
           </argument>
@@ -166,6 +168,7 @@ if(pos == 2){
             <string>
 if(pos == 1){
     lives-=1
+    audio_play_sound(sound_wrong_answer, 9, false);
 }
 </string>
           </argument>
