@@ -122,11 +122,11 @@ if(lives &gt;0 &amp;&amp; won=false){
     
     
 }
-if(lives ==0 &amp;&amp; lost ==false){
+if(lives &lt;=0 &amp;&amp; lost ==false){
 
 audio_play_sound(sound_wrong_answer_buzzer, 9, false);
 }
-if(lives==0){
+if(lives&lt;=0){
     lost = true;
      instance_create(50,1100, obj_restart_escape);
      instance_create(600,1100,obj_quit_escape);

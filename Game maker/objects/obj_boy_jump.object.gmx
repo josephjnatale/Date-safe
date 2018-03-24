@@ -33,7 +33,7 @@ image_yscale = 2;
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="7" enumb="7">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -50,11 +50,10 @@ image_yscale = 2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if image_index == 6{
-    
-    instance_create(-310, 750, obj_boy_run);
-    instance_destroy();
-}
+            <string>
+instance_create(-310, 750, obj_boy_run);
+instance_destroy();
+
 </string>
           </argument>
         </arguments>
