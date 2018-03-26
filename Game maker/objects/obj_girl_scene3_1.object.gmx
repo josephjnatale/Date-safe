@@ -56,7 +56,7 @@ if(mouse_x&gt;40 &amp;&amp; mouse_x&lt;1040){
     if(mouse_y&gt;1450 &amp;&amp; mouse_y&lt;1650 &amp;&amp; !(global.box1=="")){
        
         instance_create(0,0,obj_girl_scene4);
-        with(obj_girl_scene3-1)instance_destroy();
+        with(obj_girl_scene3_1)instance_destroy();
         }
     else if( mouse_y&gt;1680 &amp;&amp; mouse_y&lt;1880 &amp;&amp; !(global.box1=="")){
         global.scene=4;
