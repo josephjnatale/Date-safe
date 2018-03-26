@@ -61,7 +61,7 @@ else if(y==1050){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(x &lt; 50) instance_destroy()
+            <string>if(x &lt; -275) instance_destroy()
 </string>
           </argument>
         </arguments>
@@ -125,8 +125,9 @@ if(pos == 2){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(x&gt;100){
+            <string>if(pos == 1 or pos == 2){
     lives-=1
+    
     audio_play_sound(sound_wrong_answer, 9, false);
 }
 </string>
