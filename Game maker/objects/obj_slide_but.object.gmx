@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -28,6 +28,15 @@
             <string>
 with (obj_boy_run) instance_destroy();
 audio_play_sound(sound_swish, 9, false);
+with(obj_boy_slide){
+    if(image_speed &gt; 0)
+        instance_destroy()
+}
+with(obj_boy_jump){
+    if(image_speed &gt; 0)
+        instance_destroy()
+}
+
 instance_create(-310, 950,obj_boy_slide);
 </string>
           </argument>
