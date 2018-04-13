@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="Go to next class without saying anything to Mike";
+            <string>global.box1="Go to your next class without saying anything to Mike";
 global.box2="Say yes to mike then go to class";
 image_speed=0.033333;
 </string>

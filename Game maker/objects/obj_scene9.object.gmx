@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="Phil says hes sorry, and says that he must study for his exam.";
+            <string>global.box1="You say youre sorry, but you must study for the exam.";
 global.box2="Say that Carla can come over.";
 image_speed=0.033333;
 </string>
@@ -58,7 +58,7 @@ if(mouse_x&gt;40 &amp;&amp; mouse_x&lt;1040){
         instance_create(0,0,obj_scene11);
         with(obj_scene9)instance_destroy();
         }
-    else if( mouse_y&gt;1680 &amp;&amp; mouse_y&lt;1880  &amp;&amp; !(global.box1=="")){
+    else if( mouse_y&gt;1680 &amp;&amp; mouse_y&lt;1880  &amp;&amp; !(global.box2=="")){
         
         instance_create(0,0,obj_scene110);
         with(obj_scene9)instance_destroy();

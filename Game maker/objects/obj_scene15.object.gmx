@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="Say, Carla is acting kida crazy.";
-global.box2="Say, Everything is fine, then head#to the movies with your basketball friends.";
+            <string>global.box1="Say, Carla is acting kinda crazy.";
+global.box2="Say, everything is fine, then head#to the movies with your basketball friends.";
 image_speed=0.033333;
 </string>
           </argument>
@@ -60,7 +60,7 @@ if(mouse_x&gt;40 &amp;&amp; mouse_x&lt;1040){
         }
     else if( mouse_y&gt;1680 &amp;&amp; mouse_y&lt;1880  &amp;&amp; !(global.box1=="")){
         
-        instance_create(0,0,obj_scene19);
+        instance_create(0,0,obj_scene19_1);
         with(obj_scene15)instance_destroy();
     }
 }

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="Shut phone off";
+            <string>global.box1="Shut your phone off";
 global.box2="Answer";
 image_speed=0.033333;
 </string>

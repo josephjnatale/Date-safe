@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>global.box1="Answer";
-global.box2="Shut phone off";
+global.box2="Shut your phone off";
 image_speed=0.033333;
 </string>
           </argument>
@@ -58,8 +58,8 @@ if(mouse_x&gt;40 &amp;&amp; mouse_x&lt;1040){
         instance_create(0,0,obj_scene9);
         with(obj_scene7)instance_destroy();
         }
-    else if( mouse_y&gt;1680 &amp;&amp; mouse_y&lt;1880  &amp;&amp; !(global.box1=="")){
-        
+    else if( mouse_y&gt;1680 &amp;&amp; mouse_y&lt;1880  &amp;&amp; !(global.box2=="")){
+       
         instance_create(0,0,obj_scene11);
         with(obj_scene7)instance_destroy();
     }

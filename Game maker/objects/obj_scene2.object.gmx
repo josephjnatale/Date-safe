@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="Phil feels pressured to say ok";
+            <string>global.box1="You feel pressured to say ok";
 global.box2="";
 image_speed=0.033333;
 </string>

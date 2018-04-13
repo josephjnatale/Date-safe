@@ -34,7 +34,8 @@
         <sprite>sprites\scene16</sprite>
         <sprite>sprites\scene17</sprite>
         <sprite>sprites\scene18</sprite>
-        <sprite>sprites\scene19</sprite>
+        <sprite>sprites\scene19_2</sprite>
+        <sprite>sprites\scene19_1</sprite>
         <sprite>sprites\scene20</sprite>
         <sprite>sprites\scene21</sprite>
         <sprite>sprites\scene8</sprite>
@@ -70,6 +71,7 @@
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_boy</sprite>
       <sprite>sprites\spr_date_safe</sprite>
+      <sprite>sprites\spr_splash</sprite>
     </sprites>
     <sprites name="main menu">
       <sprite>sprites\spr_balloons_but</sprite>
@@ -80,6 +82,7 @@
       <sprite>sprites\spr_credits</sprite>
       <sprite>sprites\spr_credits_page</sprite>
       <sprite>sprites\spr_back_butt</sprite>
+      <sprite>sprites\spr_logo</sprite>
     </sprites>
     <sprites name="info">
       <sprite>sprites\spr_burger</sprite>
@@ -148,6 +151,7 @@
       <object>objects\obj_start</object>
       <object>objects\obj_boy</object>
       <object>objects\obj_date_safe</object>
+      <object>objects\object105</object>
     </objects>
     <objects name="main menu">
       <object>objects\obj_info_but</object>
@@ -158,6 +162,7 @@
       <object>objects\obj_credits</object>
       <object>objects\obj_credits_page</object>
       <object>objects\obj_back_but</object>
+      <object>objects\object104</object>
     </objects>
     <objects name="info">
       <object>objects\obj_burger</object>
@@ -220,7 +225,8 @@
         <object>objects\obj_scene16</object>
         <object>objects\obj_scene17</object>
         <object>objects\obj_scene18</object>
-        <object>objects\obj_scene19</object>
+        <object>objects\obj_scene19_1</object>
+        <object>objects\obj_scene19_2</object>
         <object>objects\obj_scene20</object>
         <object>objects\obj_scene21</object>
         <object>objects\obj_scene110</object>
