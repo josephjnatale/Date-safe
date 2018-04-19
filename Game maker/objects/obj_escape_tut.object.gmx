@@ -27,7 +27,12 @@
             <kind>1</kind>
             <string>move_towards_point(-1,y,50);
 audio_play_sound(sound_click, 9, false);
-instance_create(-310, 750, obj_boy_run);
+if (global.playasgender == 1){
+    instance_create(-310, 750, obj_boy_run);
+}
+else{
+    instance_create(-310, 750, obj_girl_run);
+}
 </string>
           </argument>
         </arguments>

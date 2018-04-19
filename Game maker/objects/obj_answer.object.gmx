@@ -33,7 +33,7 @@ audio_play_sound(sound_click, 10, false)
 
 audio_play_sound(sound_correct_answer, 9, false)
 
-instance_create(room_width/2 +400, room_height/2 , obj_correct);
+instance_create(room_width/2, room_height/2+300 , obj_correct);
 </string>
           </argument>
         </arguments>
