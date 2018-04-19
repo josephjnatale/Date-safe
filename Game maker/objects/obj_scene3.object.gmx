@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="make plans to go to the movies tomorrow night.";
+            <string>global.box1="Make plans to go to the movies tomorrow night.";
 if
 global.box2="Say you cant because Carla already asked him.";
 else
