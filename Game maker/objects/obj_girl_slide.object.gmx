@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = .2;
+            <string>image_speed = .1;
 image_xscale = 2;
 image_yscale = 2;
 </string>
@@ -33,7 +33,7 @@ image_yscale = 2;
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="7" enumb="7">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -50,11 +50,10 @@ image_yscale = 2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if image_index == 2{
-    
-    instance_create(x,y-200,obj_girl_run);
-    instance_destroy();
-}
+            <string>
+instance_create(-310, 750, obj_girl_run);
+instance_destroy();
+
 </string>
           </argument>
         </arguments>

@@ -131,6 +131,7 @@ if(lives&lt;=0){
      instance_create(50,1100, obj_restart_escape);
      instance_create(600,1100,obj_quit_escape);
      with (obj_boy_run) instance_destroy();
+     with (obj_girl_run) instance_destroy();
   }   
   
    
@@ -144,6 +145,7 @@ if(score&gt;=20){
     instance_create(400,1100, obj_quit_escape);
     
     with (obj_boy_run) instance_destroy();
+    with (obj_girl_run) instance_destroy();
     
 } 
 

@@ -25,19 +25,36 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with (obj_boy_run) instance_destroy();
-audio_play_sound(sound_swish, 9, false);
-with(obj_boy_jump){
-    if(image_speed &gt; 0)
-        instance_destroy()
+            <string>if (global.playasgender == 1){
+    with (obj_boy_run) instance_destroy();
+    audio_play_sound(sound_swish, 9, false);
+    with(obj_boy_jump){
+        if(image_speed &gt; 0)
+            instance_destroy()
+    }
+    
+    with(obj_boy_slide){
+        if(image_speed &gt; 0)
+            instance_destroy()
+    }
+    
+    instance_create(-310,100,obj_boy_jump);
 }
-
-with(obj_boy_slide){
-    if(image_speed &gt; 0)
-        instance_destroy()
+else{
+    with (obj_girl_run) instance_destroy();
+    audio_play_sound(sound_swish, 9, false);
+    with(obj_girl_jump){
+        if(image_speed &gt; 0)
+            instance_destroy()
+    }
+    
+    with(obj_girl_slide){
+        if(image_speed &gt; 0)
+            instance_destroy()
+    }
+    
+    instance_create(-310,100,obj_girl_jump);
 }
-
-instance_create(-310,100,obj_boy_jump);
 </string>
           </argument>
         </arguments>

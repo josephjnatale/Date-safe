@@ -264,12 +264,13 @@
       <object>objects\obj_locker0</object>
       <object>objects\obj_locker1</object>
       <object>objects\obj_locker2</object>
-      <object>objects\obj_open_lock0</object>
       <object>objects\obj_restart_escape</object>
       <object>objects\obj_quit_escape</object>
       <object>objects\obj_escape_tut</object>
       <object>objects\obj_jump_but</object>
       <object>objects\obj_slide_but</object>
+      <object>objects\obj_boy_choose</object>
+      <object>objects\obj_girl_choose</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -280,6 +281,7 @@
     <room>rooms\rm_date</room>
     <room>rooms\rm_scene</room>
     <room>rooms\rm_credits</room>
+    <room>rooms\rm_escape_choose</room>
     <room>rooms\rm_escape</room>
   </rooms>
   <help>
