@@ -91,7 +91,6 @@
       <sprite>sprites\infographic</sprite>
       <sprite>sprites\spr_box</sprite>
       <sprite>sprites\spr_arrow</sprite>
-      <sprite>sprites\spr_correct</sprite>
       <sprite>sprites\spr_wrong</sprite>
       <sprite>sprites\spr_quiz_bg</sprite>
     </sprites>
