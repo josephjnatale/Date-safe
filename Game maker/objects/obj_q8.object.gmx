@@ -74,7 +74,7 @@ instance_create(75, 1586, obj_not_ans);
 instance_create(580, 1300, obj_not_ans);
 instance_create(580 , 1586, obj_not_ans );
 
-
+draw_sprite(spr_q8,0,room_width/2, room_height/2 - 200);
 </string>
           </argument>
         </arguments>

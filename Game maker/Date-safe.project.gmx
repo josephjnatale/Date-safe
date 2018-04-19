@@ -93,6 +93,18 @@
       <sprite>sprites\spr_arrow</sprite>
       <sprite>sprites\spr_wrong</sprite>
       <sprite>sprites\spr_quiz_bg</sprite>
+      <sprites name="quiz pics">
+        <sprite>sprites\spr_q0</sprite>
+        <sprite>sprites\spr_q1</sprite>
+        <sprite>sprites\spr_q2</sprite>
+        <sprite>sprites\spr_q3</sprite>
+        <sprite>sprites\spr_q4</sprite>
+        <sprite>sprites\spr_q5</sprite>
+        <sprite>sprites\spr_q6</sprite>
+        <sprite>sprites\spr_q7</sprite>
+        <sprite>sprites\spr_q8</sprite>
+        <sprite>sprites\spr_q9</sprite>
+      </sprites>
     </sprites>
     <sprites name="balloons">
       <sprite>sprites\spr_blue</sprite>

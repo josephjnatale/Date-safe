@@ -31,7 +31,7 @@ with(obj_correct) instance_destroy();
 
 audio_play_sound(sound_click, 10, false)
 audio_play_sound(sound_wrong_answer, 9, false)
-instance_create(room_width/2, room_height/2 + 200, obj_wrong);
+instance_create(room_width/2, room_height/2 + 300, obj_wrong);
 </string>
           </argument>
         </arguments>
