@@ -258,7 +258,7 @@ if(score&gt;=20){
 
 if(won ==true){
     
-    draw_text((room_width/2),(room_height/2)-100, "YOU WON!!!!.#Reutrn to main menu?");
+    draw_text((room_width/2),(room_height/2)-100, "YOU WON!!!!.#Return to main menu?");
     
 }
 
