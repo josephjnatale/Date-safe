@@ -282,6 +282,7 @@
       <object>objects\obj_slide_but</object>
       <object>objects\obj_boy_choose</object>
       <object>objects\obj_girl_choose</object>
+      <object>objects\obj_jumper</object>
     </objects>
   </objects>
   <rooms name="rooms">
